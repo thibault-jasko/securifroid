@@ -13,8 +13,9 @@
     </head>
 	<body>
 		<div>
-		      <form method="post" action="connexion" class="form-signin" role="form">
-		        <h2 class="form-signin-heading"><small>Connectez-vous à votre espace personnel.</small></h2>
+		    <form method="post" action="connexion" class="form-signin" role="form">
+		    	<h2>SÉCURIFROID</h2>
+		     	<h2 class="form-signin-heading"><small>Connectez-vous à votre espace personnel.</small></h2>
 		        <div class="well">
 			        <input name="id" type="email" class="form-control" placeholder="Adresse e-mail" required autofocus>
 			        <input name="pwd" type="password" class="form-control" placeholder="Mot de passe" required>
@@ -25,7 +26,7 @@
 			        </label>
 			        <button class="btn btn-lg btn-primary btn-block" type="submit">Connexion</button>
 		      	</div>
-		      </form>
+		    </form>
     	</div>
 	</body>
 </html>
